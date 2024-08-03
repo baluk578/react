@@ -1,25 +1,22 @@
-// src/App.js
+// src/components/Index.js
 import React from 'react';
 import Navbar from './Navbar';
-import './App.css';
 import './Index.css';
 
-function App() {
+const Index = () => {
   return (
-    <div className="App">
+    <div className="index-page">
       <Navbar />
       <section id="home" className="home-section">
         <h1>Welcome to My Portfolio</h1>
         <p>I am Balu, currently pursuing my 2nd year B.Tech at Karunya Institute of Technology and Sciences.
-        As a passionate developer</p>
+           As a passionate developer</p>
       </section>
       <section id="about" className="about-section">
         <h2>About Me</h2>
-        <p>
-        I have developed the frontend using Flutter and designed the interfaces with Figma.
+        <p> I have developed the frontend using Flutter and designed the interfaces with Figma.
            Additionally, I have created an e-commerce website using HTML, CSS, and Bootstrap, 
-          showcasing my ability to build functional and visually appealing web applications.
-        </p>
+          showcasing my ability to build functional and visually appealing web applications.</p>
       </section>
       <section id="projects" className="projects-section">
         <h2>Projects</h2>
@@ -40,11 +37,11 @@ function App() {
       <section id="contact" className="contact-section">
         <h2>Contact</h2>
           <a href="#">bbalu0420@gmail.com</a><br></br>
-          <a href="+91 7708210139" class ="phone-link">+91 7708210139</a><br></br>
+          <a href="+91 7708210139" class="phone-link">+91 7708210139</a><br></br>
           <a href="https://www.linkedin.com/in/baluk88?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
       </section>
     </div>
   );
-}
+};
 
-export default App;
+export default Index;
